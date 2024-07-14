@@ -1,0 +1,435 @@
+
+body {
+    font-family: Helvetica, sans-serif;
+    margin: 0;
+    padding: 0
+}
+
+.logo {
+    max-width: 300px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+h1 {
+    font-family: Helvetica, sans-serif;
+    font-size: 25px;
+    color: black;
+    text-align: center;
+}
+
+header {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Trebuchet MS', sans-serif;
+    padding: 5px 10px; /* Add padding for better hover effect */
+    border-radius: 5px;
+    transition: background-color 0.3s, box-shadow 0.3s, transform 0.3s;
+}
+
+nav a:hover {
+    background-color: white; /* Change to your desired hover background color 2485E5 */
+    box-shadow: 0px 0px 5px rgba(0, 1, 0, 1); /* Add shadow on hover */
+    transform: translateY(-5px);
+}
+
+@font-face { 
+  font-display:swap;
+  font-family:FontAwesome;
+  src:url(https://www.kotak.com/etc/designs/kotak/clientlib-site/fonts/fontawesome-webfont.eot?v=4.5.0);
+  src:url(https://www.kotak.com/etc/designs/kotak/clientlib-site/fonts/fontawesome-webfont.eot?#iefix&v=4.5.0) format('embedded-opentype'),url(https://www.kotak.com/etc/designs/kotak/clientlib-site/fonts/fontawesome-webfont.woff2?v=4.5.0) format('woff2'),url(https://www.kotak.com/etc/designs/kotak/clientlib-site/fonts/fontawesome-webfont.woff?v=4.5.0) format('woff'),url(https://www.kotak.com/etc/designs/kotak/clientlib-site/fonts/fontawesome-webfont.ttf?v=4.5.0) format('truetype'),url(https://www.kotak.com/etc/designs/kotak/clientlib-site/fonts/fontawesome-webfont.svg?v=4.5.0#fontawesomeregular) format('svg');
+  font-weight:400;
+  font-style:normal;
+} 
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap'); 
+  body {  
+    font-family:Roboto,Arial,sans-serif;
+    font-size:10px;
+    line-height:1.428571429;
+    color:#333;
+  }  
+* { 
+    box-sizing: border-box;
+} 
+
+* { 
+    outline: 0!important;
+} 
+
+body { 
+    margin: 0;
+} 
+
+body { 
+    background-color: #fff;
+} 
+
+body { 
+    font-family: Roboto,Arial,sans-serif;
+} 
+
+body { 
+    font-size: 14px; 
+    line-height: 1.428571429; 
+    color: #333;
+} 
+
+html { 
+    -webkit-tap-highlight-color: transparent;
+} 
+
+html { 
+    font-family: sans-serif; 
+    -ms-text-size-adjust: 100%; 
+    -webkit-text-size-adjust: 100%;
+} 
+
+html { 
+    font-size: 10px;
+} 
+
+*,:after,:before { 
+    box-sizing: border-box;
+} 
+
+.container-fluid:after,.container-fluid:before,.container:after,.container:before,.row:after,.row:before { 
+    display: table; 
+    content: " ";
+} 
+
+.btn-group-vertical > .btn-group::after,.btn-toolbar:after,.clear-fix,.clearfix:after,.container-fluid:after,.container:after,.customer-care-reply,.customer-care-reply .texted-time,.customer-chat,.customer-chat .texted-time,li > a , .form-horizontal .form-group::after,.modal-footer:after,.modal-header:after,.nav:after,.navbar-header:after,.navbar:after,.pager:after,.panel-body:after,.row:after { 
+    clear: both;
+} 
+
+.sub-wrapr  { 
+    text-align: left; 
+    margin: 0 10%;
+} 
+
+.edge-eligibility { 
+    text-align: center; 
+    padding-bottom: 40px;
+} 
+
+ul { 
+    margin-top: 0;
+} 
+
+ul { 
+    margin-bottom: 10px;
+} 
+
+ul { 
+    margin: 0; 
+    padding: 0;
+} 
+
+ul  { 
+    display: inline-block;
+} 
+
+ul  { 
+    height: 46px; 
+    padding-top: 16px;
+} 
+
+ul li  { 
+    list-style: none;
+} 
+
+ul li  { 
+    float: left; 
+    font-size: 15px; 
+    font-family: Roboto,serif; 
+    line-height: 16px; 
+    padding: 0 22px;
+} 
+
+ul li  { 
+    float: left; 
+    font-size: 15px; 
+    font-family: roboto,serif; 
+    line-height: 16px; 
+    padding: 0 14px;
+} 
+
+p { 
+    margin: 0 0 10px;
+} 
+
+p  { 
+    color: #666; 
+    font-size: 15px; 
+    font-family: Roboto,serif;
+} 
+
+a { 
+    background-color: transparent;
+} 
+
+a { 
+    text-decoration: none; 
+    color: red; 
+    -webkit-transition: color .5s linear; 
+    transition: color .5s linear;
+} 
+
+a { 
+    cursor: pointer;
+} 
+
+a  { 
+    display: block; 
+    padding-bottom: 15px;
+} 
+
+a  { 
+    color: #666;
+} 
+
+a  { 
+    position: relative; 
+    white-space: nowrap; 
+    padding-bottom: 15px;
+} 
+
+a  { 
+    border-bottom: 3px solid red; 
+    padding-bottom: 12px;
+} 
+
+a  { 
+    color: #0f3464;
+} 
+
+a  { 
+    color: #f7363d; 
+    border-bottom: 0; 
+    padding-bottom: 15px;
+} 
+
+.tabs-without-btn ul li a::after { 
+    border-bottom: 0; 
+    padding-bottom: 0; 
+    position: absolute; 
+    content: ""; 
+    display: table; 
+    clear: both; 
+    bottom: -9px; 
+    left: 50%; 
+    width: 0; 
+    height: 5px; 
+    background: #f7363d; 
+    -webkit-transition: width 125ms ease,opacity 200ms ease; 
+    transition: width 125ms ease,opacity 200ms ease; 
+    -webkit-transform: translateX(-50%); 
+    transform: translateX(-50%); 
+    border-radius: 10px 10px 0 0;
+} 
+
+.tabs-without-btn ul li.active a::after { 
+    width: 100%;
+} 
+
+a:active,a:hover { 
+    outline: 0;
+} 
+
+a:hover { 
+    text-decoration: none; 
+    color: #036;
+} 
+
+.search-tabs-box ul li a:hover { 
+    border-bottom: 3px solid red; 
+    padding-bottom: 12px;
+} 
+
+.search-tabs-box ul li a:hover { 
+    background: 0;
+} 
+
+.tabs-without-btn ul li a:hover { 
+    border-bottom: 0; 
+    padding-bottom: 15px; 
+    color: red;
+} 
+
+.tabs-without-btn ul li a:hover::after { 
+    width: 100%;
+} 
+
+p ,.saving-ac p  { 
+    color: #666; 
+    font-size: 15px; 
+    font-family: Roboto,serif;
+} 
+
+table { 
+    border-collapse: collapse; 
+    border-spacing: 0;
+} 
+
+table { 
+    background-color: transparent;
+} 
+
+.table { 
+    max-width: 100%;
+} 
+
+.table { 
+    width: 100%; 
+    margin-bottom: 20px;
+} 
+
+.table-bordered { 
+    border: 1px solid #ddd;
+} 
+
+b { 
+    font-family: Roboto,sans-serif; 
+    font-weight: 600;
+} 
+
+.list-points li  { 
+    color: #333; 
+    font-size: 15px; 
+    font-family: Roboto,serif; 
+    list-style: none; 
+    padding-bottom: 5px; 
+    padding-left: 17px; 
+    position: relative;
+} 
+
+ul li  { 
+    color: #666; 
+    font-size: 15px; 
+    font-family: Roboto,serif;
+} 
+
+ul li  { 
+    padding: 10px 0;
+} 
+
+.sub-wrapr ul li  { 
+    padding: 0 0 5px 35px;
+} 
+
+.list-points li::before, .table-bullet td a::before { 
+    font-family: FontAwesome; 
+    display: block; 
+    left: 2px; 
+    color: red;
+} 
+
+.list-points li::before { 
+    content: '\f111'; 
+    position: absolute; 
+    font-size: .5em; 
+    margin-right: 0; 
+    top: 5px;
+} 
+
+.edge-eligibility .sub-wrapr ul li::before { 
+    left: 15px;
+} 
+
+td { 
+    padding: 0;
+} 
+
+.table td  { 
+    text-align: left; 
+    border: 0!important;
+} 
+
+.table td  { 
+    padding: 8px; 
+    line-height: 1.42857143; 
+    vertical-align: top; 
+    border-top: 1px solid #ddd!important;
+} 
+
+.table > tbody > tr > td  { 
+    padding: 8px; 
+    line-height: 1.428571429; 
+    vertical-align: top; 
+    border-top: 1px solid #ddd;
+} 
+
+.table-bordered > tbody > tr > td  { 
+    border: 1px solid #ddd;
+} 
+
+th { 
+    padding: 0;
+} 
+
+th { 
+    text-align: left;
+} 
+
+th { 
+    border: 1px solid #dee2e6; 
+    padding: 10px;
+} 
+
+.table th  { 
+    text-align: left; 
+    border: 0!important;
+} 
+
+.table th  { 
+    vertical-align: bottom; 
+    border-bottom: 2px solid #ddd!important;
+} 
+
+.table > tbody > tr > th  { 
+    padding: 8px; 
+    line-height: 1.428571429; 
+    vertical-align: top; 
+    border-top: 1px solid #ddd;
+} 
+
+.table-bordered > tbody > tr > th  { 
+    border: 1px solid #ddd;
+} 
+
+
+/* These were inline style tags. Uses id+class to override almost everything */
+#style-s95Xn.style-s95Xn {  
+   width: 25.0%;  
+}  
+#style-txEvS.style-txEvS {  
+   width: 25.0%;  
+}  
+#style-Znxbc.style-Znxbc {  
+   background-color: rgb(255,255,255);  
+}  
+#style-4ZTAo.style-4ZTAo {  
+   background-color: rgb(255,255,255);  
+}  
+#style-3stNq.style-3stNq {  
+   font-size: 20.0px;  
+}  

@@ -1,0 +1,357 @@
+/* Reset some default styles */
+body, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    
+    background-color: white;
+}
+
+
+header {
+    background-color: white;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+    display: flex;
+     
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1 {
+    font: italic 1.2rem "Fira Sans", serif;
+    font-family: cursive;
+    font-size: 20px;
+    margin-right: 40px;
+}
+
+
+.logo {
+    max-width: 300px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+
+
+nav ul {
+margin-left:50px;
+    background-color: ;
+    list-style: none;
+    display: flex;
+    text-align: right;
+}
+
+nav li {
+    display: space-between;
+    margin-right: 20px;
+    font-size: 17px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Trebuchet MS', sans-serif;
+    padding: 5px 10px; /* Add padding for better hover effect */
+    border-radius: 5px;
+    transition: background-color 0.3s, box-shadow 0.3s, transform 0.3s;
+}
+
+nav a:hover {
+    background-color: #white; /* Change to your desired hover background color 2485E5 */
+    box-shadow: 0px 0px 5px rgba(0, 1, 0, 1); /* Add shadow on hover */
+    transform: translateY(-5px);
+}
+
+.login-link {
+    background-color: #1E9BC6; /* Background color for login link */
+    color: #fff; /* Text color for login link */
+    padding: 5px 10px; /* Adjust padding as needed */
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: none; /* Remove underline */
+}
+
+.hero {
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    background-image: url(bank.gif);
+    background-repeat: no-repeat; 
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    background-size: cover;
+    padding: 100px 0;
+}
+
+.hero h2 {
+    font-variant: small-caps slashed-zero;
+    
+    text-shadow: 2px 2px 5px white;
+    font-size: 50px;
+    color: #333333;
+    margin-bottom: 25px;
+}
+
+.btnn {
+    display: inline-block;
+    background-color: white;
+    padding: 5px 10px; /* Add padding for better hover effect */
+    border-style: solid;
+    border-color: #C0F0EB;
+    border-radius: 15px;
+    transition: background-color 0.3s, box-shadow 0.3s, transform 0.3s;    
+    border-width: thick;
+    color: black;
+    margin-top: 100px;
+    text-decoration: none;
+}
+
+.btnn:hover {
+    background-color: #C0F0EB; /* Change to your desired hover background color 2485E5 */
+    box-shadow: 0px 0px 5px rgba(0, 1, 0, 1); /* Add shadow on hover */
+    transform: translateY(-5px);
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 50px 0;
+}
+
+.feature {
+
+    text-align: center;
+    padding: 20px;
+    border: 3px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+    height: 80px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.feature h3 {
+    margin-bottom: 15px;
+}
+
+.feature:hover {
+    background-color: white; /* Change to your desired background color on hover */
+    transform: translateY(-5px); /* Move the feature up slightly on hover */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); /* Add a box shadow on hover for a lifted effect */
+}
+
+.feature:hover h3 {
+    color: #1E9BC6; /* Change to your desired text color on hover */
+}
+
+.feature:hover p {
+    color: #1E9BC6; /* Change to your desired text color on hover */
+}
+
+.feature-link {
+    text-decoration: none; /* Remove default underline */
+    color: inherit; /* Inherit the color from the parent feature */
+    display: block; /* Make the entire feature clickable */
+    transition: background-color 0.3s, transform 0.3s; /* Apply transitions on hover */
+}
+
+.feature-link:hover {
+    background-color: #C0F0EB; /* Change to your desired background color on hover */
+    transform: translateY(-5px); /* Move the feature up slightly on hover */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); /* Add a box shadow on hover for a lifted effect */
+}
+
+/* Style for the text within feature links */
+.feature-link h3,
+.feature-link p {
+    transition: color 0.3s; /* Apply color transition on hover */
+}
+
+/* Style for the text within feature links on hover */
+.feature-link:hover h3,
+.feature-link:hover p {
+    color: #1E9BC6; /* Change to your desired text color on hover */
+}
+
+
+hr {
+  margin-top: 50px;
+  border: none;
+  border-top: 3px double #333;
+  color: #333;
+  overflow: visible;
+  text-align: center;
+  height: 5px;
+}
+
+hr:after {
+  background: #fff;
+  content: '§';
+  padding: 0 4px;
+  position: relative;
+  top: -13px;
+}
+
+.choose-us {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: white; /* Background color for the section */
+}
+
+.choose-us-content {
+    flex: 1;
+    padding: 20px;
+}
+
+.choose-us-image img {
+    max-width: 800%;
+    height: auto;
+}
+
+.hed{
+    font-family: arial;
+    font-size: 35px;
+    font-color: blue;
+}
+
+.bref{
+    font-family: arial;
+    font-size: 20px;
+    font-color: blue;
+    size:contain;
+}
+
+
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.menu-item {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    text-align: center;
+    border: 3px solid #ccc;
+    border-color: #C0F0EB;
+    transition: background-color 0.3s, box-shadow 0.3s, transform 0.3s;    
+    border-width: thick;
+    color: black;
+    margin-top: 40px;
+    text-decoration: none;
+}
+
+.menu-item img {
+    width: 350px; /* Adjust image width as needed */
+    height: 350px; /* Adjust image height as needed */
+    margin: 0 auto 10px;
+    display: block;
+}
+
+.menu-item p {
+    padding; 10px;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+.menu-item:hover {
+    background-color: #white; /* Change to your desired hover background color 2485E5 */
+    box-shadow: 0px 0px 5px rgba(0, 1, 0, 1); /* Add shadow on hover */
+    transform: translateY(-5px);
+}
+
+/* Style for the announcement section */
+.announcement-section {
+    background-color: #ffd700; /* Background color for the section */
+    padding: 10px 20px; /* Adjust padding as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #333; /* Text color */
+}
+
+.announcement-text {
+    font-size: 39px; /* Adjust the text size as needed */
+    font-weight: bold; /* Make the text bold */
+    align: center;
+}
+
+.announcements{
+    font-size: 19px; /* Adjust the text size as needed */
+    ; /* Make the text bold */
+    align: center;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative; /* Add this line to enable absolute positioning within the footer */
+}
+
+.go-to-top {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    color: #fff;
+    text-decoration: none;
+    background-color: #1E9BC6;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s, box-shadow 0.3s, transform 0.3s;
+}
+
+.go-to-top:hover {
+    background-color: #C0F0EB; /* Change to your desired hover background color */
+    box-shadow: 0px 0px 5px rgba(0, 1, 0, 1);
+    transform: translateY(-5px);
+}
+
+/* chatbot btn*/
+
+.chatbot {
+    
+    margin-bottom: 100px;
+    padding: 5px 10px; /* Adjust padding as needed */
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: none; /* Remove underline */
+}
+
+/* Define a CSS class for styling the images */
+.custom-image {
+margin-right:20px;
+    width: 100px; /* Adjust the maximum width as needed */
+    height: auto; /* Maintain the aspect ratio */
+    /* Add any other styling properties you want */
+}
+
+
+
+
+
+
+
+

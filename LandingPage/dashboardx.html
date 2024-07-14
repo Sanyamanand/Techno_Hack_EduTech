@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard with Graphs</title>
+    <link rel="stylesheet" href="dashxstyles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+<main class="content">
+        <header>
+            <div>
+                <img src="logoo.jpg" alt="Logo" class="logo" > 
+            </div>
+            <h1>Welcome to Your Dashboard</h1>
+            <nav>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="soon.html">Accounts</a></li>
+                    <li><a href="soon.html">Transactions</a></li>
+                    <li><a href="soon.html">Profile</a></li>
+                </ul>
+            </nav>
+        </header>
+<hr>
+
+<section class="profile">
+    <h2>Welcome, Admin</h2>
+    <div class="profile-details">
+        <img src="user.gif" alt="Profile Photo" class="profile-image">
+        <div class="profile-info">
+            <p><strong>Name:</strong> John Doe</p>
+        <p><strong>Email:</strong> admin@example.com</p>
+        <p><strong>Role:</strong> Bank Administrator</p>
+        <p><strong>Phone:</strong> +1 (123) 456-7890</p>
+        <p><strong>Address:</strong> 123 Main Street, City, Country</p>
+        <p><strong>DOB:</strong> January 15, 1980</p>
+        <p><strong>Member Since:</strong> January 1, 2010</p>
+        </div>
+    </div>
+</section>
+
+ <section class="dashboard-content">
+    <div class="content-wrapper">
+        <section class="overview">
+            
+            <div class="chart-container overview-chart">
+                <canvas id="overviewChart"></canvas>
+            </div>
+        </section>
+        <section class="accounts">
+            	
+            <div class="chart-container accounts-chart">
+                <canvas id="accountsChart"></canvas>
+            </div>
+        </section>
+    </div>
+</section>
+
+
+<section class="features">
+    <div class="feature">
+        <img src="balance.png" alt="Bank Balance Icon" class="balanceimg">
+        <h3>Bank Balance</h3>
+        <p>Your current bank balance.</p>
+    </div>
+
+    <div class="feature">
+        <img src="credit.png" alt="Credit Remaining Icon" >
+        <h3>Credit Remaining</h3>
+        <p>The remaining credit in your account.</p>
+    </div>
+
+    <div class="feature">
+        <img src="stock.png" alt="Stocks Earned Icon">
+        <h3>Stocks Earned</h3>
+        <p>Your earnings from stocks.</p>
+    </div>
+</section>
+
+
+
+    <script src="scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+body {
+background-color: #2687D6;
+
+}
+
+#loading {
+    background: url('soon.gif') no-repeat center center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 9999999;
+}
+
